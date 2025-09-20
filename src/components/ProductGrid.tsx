@@ -78,31 +78,35 @@ const ProductGrid = ({ searchQuery }: ProductGridProps) => {
         </div>
 
         {/* Filters and Controls */}
-        <div className="bg-card rounded-xl shadow-card border border-border/50 p-6 mb-8">
-          <div className="flex flex-col lg:flex-row gap-4 items-center justify-between">
+        <div className="bg-card rounded-xl shadow-card border border-border/50 p-4 md:p-6 mb-8">
+          <div className="flex flex-col gap-6">
             {/* Category Filter */}
-            <div className="flex flex-wrap gap-2">
-              {categories.map((category) => (
-                <Badge
-                  key={category}
-                  variant={selectedCategory === category ? "default" : "outline"}
-                  className={`cursor-pointer transition-all ${
-                    selectedCategory === category 
-                      ? 'bg-primary text-primary-foreground hover:bg-primary/90' 
-                      : 'hover:bg-muted'
-                  }`}
-                  onClick={() => setSelectedCategory(category)}
-                >
-                  <Filter className="h-3 w-3 mr-1" />
-                  {category}
-                </Badge>
-              ))}
+            <div>
+              <h3 className="text-sm font-medium text-foreground mb-3">Filter by Category</h3>
+              <div className="flex flex-wrap gap-2">
+                {categories.map((category) => (
+                  <Badge
+                    key={category}
+                    variant={selectedCategory === category ? "default" : "outline"}
+                    className={`cursor-pointer transition-all text-xs sm:text-sm px-2 py-1 sm:px-3 sm:py-1 ${
+                      selectedCategory === category 
+                        ? 'bg-primary text-primary-foreground hover:bg-primary/90' 
+                        : 'hover:bg-muted'
+                    }`}
+                    onClick={() => setSelectedCategory(category)}
+                  >
+                    <Filter className="h-3 w-3 mr-1" />
+                    <span className="hidden sm:inline">{category}</span>
+                    <span className="sm:hidden">{category.split(' ')[0]}</span>
+                  </Badge>
+                ))}
+              </div>
             </div>
 
             {/* Sort and View Controls */}
-            <div className="flex items-center gap-4">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
               <Select value={sortBy} onValueChange={setSortBy}>
-                <SelectTrigger className="w-40">
+                <SelectTrigger className="w-full sm:w-48">
                   <SelectValue placeholder="Sort by" />
                 </SelectTrigger>
                 <SelectContent>
@@ -112,38 +116,45 @@ const ProductGrid = ({ searchQuery }: ProductGridProps) => {
                 </SelectContent>
               </Select>
 
-              <div className="flex border border-border rounded-lg p-1">
-                <Button
-                  variant={viewMode === 'grid' ? 'default' : 'ghost'}
-                  size="sm"
-                  onClick={() => setViewMode('grid')}
-                  className="h-8 px-3"
-                >
-                  <Grid className="h-4 w-4" />
-                </Button>
-                <Button
-                  variant={viewMode === 'list' ? 'default' : 'ghost'}
-                  size="sm"
-                  onClick={() => setViewMode('list')}
-                  className="h-8 px-3"
-                >
-                  <List className="h-4 w-4" />
-                </Button>
+              <div className="flex items-center justify-between w-full sm:w-auto gap-4">
+                <div className="flex border border-border rounded-lg p-1">
+                  <Button
+                    variant={viewMode === 'grid' ? 'default' : 'ghost'}
+                    size="sm"
+                    onClick={() => setViewMode('grid')}
+                    className="h-8 px-3"
+                  >
+                    <Grid className="h-4 w-4" />
+                  </Button>
+                  <Button
+                    variant={viewMode === 'list' ? 'default' : 'ghost'}
+                    size="sm"
+                    onClick={() => setViewMode('list')}
+                    className="h-8 px-3"
+                  >
+                    <List className="h-4 w-4" />
+                  </Button>
+                </div>
+
+                {/* Results Count */}
+                <div className="text-sm text-muted-foreground">
+                  <span className="font-semibold text-foreground">{filteredAndSortedProducts.length}</span> products
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* Results Count */}
-          <div className="mt-4 pt-4 border-t border-border/50">
-            <p className="text-sm text-muted-foreground">
-              Showing <span className="font-semibold text-foreground">{filteredAndSortedProducts.length}</span> products
-              {searchQuery && (
-                <span> for "<span className="font-semibold text-primary">{searchQuery}</span>"</span>
-              )}
-              {selectedCategory !== 'All' && (
-                <span> in <span className="font-semibold text-primary">{selectedCategory}</span></span>
-              )}
-            </p>
+            {/* Search Results Info */}
+            {(searchQuery || selectedCategory !== 'All') && (
+              <div className="text-sm text-muted-foreground border-t border-border/50 pt-4">
+                Showing results
+                {searchQuery && (
+                  <span> for "<span className="font-semibold text-primary">{searchQuery}</span>"</span>
+                )}
+                {selectedCategory !== 'All' && (
+                  <span> in <span className="font-semibold text-primary">{selectedCategory}</span></span>
+                )}
+              </div>
+            )}
           </div>
         </div>
 

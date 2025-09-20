@@ -69,11 +69,17 @@ export default {
         'gradient-hero': 'var(--gradient-hero)',
         'gradient-card': 'var(--gradient-card)',
         'gradient-button': 'var(--gradient-button)',
+        'gradient-rainbow': 'var(--gradient-rainbow)',
+        'gradient-emerald': 'var(--gradient-emerald)',
+        'gradient-mint': 'var(--gradient-mint)',
+        'gradient-forest': 'var(--gradient-forest)',
       },
       boxShadow: {
         'card': 'var(--shadow-card)',
         'button': 'var(--shadow-button)',
         'hero': 'var(--shadow-hero)',
+        'glow': 'var(--shadow-glow)',
+        'soft': 'var(--shadow-soft)',
       },
       transitionTimingFunction: {
         'smooth': 'var(--transition-smooth)',

@@ -2,6 +2,8 @@ import { useState } from 'react';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import ProductGrid from '@/components/ProductGrid';
+import About from '@/components/About';
+import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -19,6 +21,8 @@ const Index = () => {
       <main>
         <Hero />
         <ProductGrid searchQuery={searchQuery} />
+        <About />
+        <Contact />
       </main>
       <Footer />
     </div>

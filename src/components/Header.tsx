@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Search, ShoppingCart, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import ThemeToggle from '@/components/ThemeToggle';
 
 interface HeaderProps {
   onSearch: (query: string) => void;
@@ -53,12 +54,13 @@ const Header = ({ onSearch, cartCount = 0 }: HeaderProps) => {
             />
           </form>
 
-          {/* Cart & Menu */}
+          {/* Cart, Theme Toggle & Menu */}
           <div className="flex items-center space-x-4">
-            <Button variant="outline" size="icon" className="relative">
+            <ThemeToggle />
+            <Button variant="outline" size="icon" className="relative transition-all hover:shadow-glow">
               <ShoppingCart className="h-4 w-4" />
               {cartCount > 0 && (
-                <span className="absolute -top-2 -right-2 bg-destructive text-destructive-foreground rounded-full text-xs w-5 h-5 flex items-center justify-center">
+                <span className="absolute -top-2 -right-2 bg-destructive text-destructive-foreground rounded-full text-xs w-5 h-5 flex items-center justify-center animate-pulse">
                   {cartCount}
                 </span>
               )}

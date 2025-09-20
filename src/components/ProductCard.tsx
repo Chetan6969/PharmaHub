@@ -68,19 +68,19 @@ const ProductCard = ({ product, onAddToCart, onBuyNow }: ProductCardProps) => {
         </p>
 
         {/* Dates */}
-        <div className="grid grid-cols-2 gap-4 text-sm">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
           <div className="flex items-center space-x-2 text-muted-foreground">
-            <Calendar className="h-4 w-4 text-primary" />
+            <Calendar className="h-4 w-4 text-primary flex-shrink-0" />
             <div>
               <p className="font-medium">Mfg Date</p>
-              <p>{formatDate(product.buildDate)}</p>
+              <p className="text-xs sm:text-sm">{formatDate(product.buildDate)}</p>
             </div>
           </div>
           <div className="flex items-center space-x-2 text-muted-foreground">
-            <Clock className="h-4 w-4 text-destructive" />
+            <Clock className="h-4 w-4 text-destructive flex-shrink-0" />
             <div>
               <p className="font-medium">Exp Date</p>
-              <p className={isExpiringSoon() ? 'text-destructive font-medium' : ''}>
+              <p className={`text-xs sm:text-sm ${isExpiringSoon() ? 'text-destructive font-medium' : ''}`}>
                 {formatDate(product.expiryDate)}
               </p>
             </div>
@@ -93,14 +93,15 @@ const ProductCard = ({ product, onAddToCart, onBuyNow }: ProductCardProps) => {
         <div className="grid grid-cols-2 gap-3 w-full">
           <Button 
             variant="outline" 
-            className="flex items-center space-x-2 hover:bg-primary hover:text-primary-foreground transition-all"
+            className="flex items-center justify-center space-x-2 hover:bg-primary hover:text-primary-foreground transition-all border-border hover:border-primary"
             onClick={() => onAddToCart(product)}
           >
             <ShoppingCart className="h-4 w-4" />
-            <span>Add to Cart</span>
+            <span className="hidden sm:inline">Add to Cart</span>
+            <span className="sm:hidden">Add</span>
           </Button>
           <Button 
-            className="bg-gradient-button hover:shadow-button transition-all font-semibold"
+            className="bg-gradient-button hover:shadow-button transition-all font-semibold border-0"
             onClick={() => onBuyNow(product)}
           >
             Buy Now

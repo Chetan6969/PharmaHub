@@ -1,11 +1,11 @@
-import zerodolPImg from "@/assets/zerodol-p.jpg";
-import kuffdrylImg from "@/assets/kuffdryl-syrup.jpg";
-import crocinImg from "@/assets/crocin.jpg";
-import dettolImg from "@/assets/dettol.jpg";
-import neemFacewashImg from "@/assets/neem-facewash.jpg";
-import iodexImg from "@/assets/iodex.jpg";
-import honeyImg from "@/assets/honey.jpg";
-import genericImg from "@/assets/generic-medicine.jpg";
+import zerodolPImg from "@/assets/zerodol-p-real.jpg";
+import kuffdrylImg from "@/assets/kuffdryl-real.jpg";
+import crocinImg from "@/assets/crocin-real.jpg";
+import dettolImg from "@/assets/dettol-real.jpg";
+import neemFacewashImg from "@/assets/himalaya-neem-real.jpg";
+import iodexImg from "@/assets/iodex-real.jpg";
+import honeyImg from "@/assets/dabur-honey-real.jpg";
+import genericImg from "@/assets/mixed-medicines-real.jpg";
 
 export interface Product {
   id: number;
