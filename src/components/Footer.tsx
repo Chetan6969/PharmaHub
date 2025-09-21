@@ -37,28 +37,27 @@ const Footer = () => {
 
           {/* Contact Information */}
           <div className="space-y-6">
-            <h4 className="font-semibold text-lg text-primary-light">Contact Us</h4>
+            <h4 className="font-semibold text-lg text-primary">Contact Us</h4>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <MapPin className="h-5 w-5 text-primary-light mt-0.5 flex-shrink-0" />
+                <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="font-medium">Pharmacy Address</p>
                   <p className="text-sm text-background/80">
-                    College of Pharmacy,<br />
-                    University Campus,<br />
-                    City, State - 123456
+                    AKS University Satna Campus,<br />
+                    Madhya Pradesh, India - 485001
                   </p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-primary-light flex-shrink-0" />
+                <Phone className="h-5 w-5 text-primary flex-shrink-0" />
                 <div>
                   <p className="font-medium">Phone</p>
                   <p className="text-sm text-background/80">+91 98765 43210</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail className="h-5 w-5 text-primary-light flex-shrink-0" />
+                <Mail className="h-5 w-5 text-primary flex-shrink-0" />
                 <div>
                   <p className="font-medium">Email</p>
                   <p className="text-sm text-background/80">divya.aman@pharmahub.com</p>
@@ -69,24 +68,24 @@ const Footer = () => {
 
           {/* Service Hours */}
           <div className="space-y-6">
-            <h4 className="font-semibold text-lg text-primary-light">Service Hours</h4>
+            <h4 className="font-semibold text-lg text-primary">Service Hours</h4>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <Clock className="h-5 w-5 text-primary-light flex-shrink-0" />
+                <Clock className="h-5 w-5 text-primary flex-shrink-0" />
                 <div className="text-sm">
                   <p className="font-medium">Monday - Saturday</p>
                   <p className="text-background/80">9:00 AM - 8:00 PM</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Clock className="h-5 w-5 text-primary-light flex-shrink-0" />
+                <Clock className="h-5 w-5 text-primary flex-shrink-0" />
                 <div className="text-sm">
                   <p className="font-medium">Sunday</p>
                   <p className="text-background/80">10:00 AM - 6:00 PM</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Truck className="h-5 w-5 text-primary-light flex-shrink-0" />
+                <Truck className="h-5 w-5 text-primary flex-shrink-0" />
                 <div className="text-sm">
                   <p className="font-medium">Emergency Delivery</p>
                   <p className="text-background/80">24/7 Available</p>
@@ -97,16 +96,16 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div className="space-y-6">
-            <h4 className="font-semibold text-lg text-primary-light">Quick Links</h4>
+            <h4 className="font-semibold text-lg text-primary">Quick Links</h4>
             <div className="grid grid-cols-2 gap-2 text-sm">
-              <a href="#home" className="text-background/80 hover:text-primary-light transition-colors">Home</a>
-              <a href="#products" className="text-background/80 hover:text-primary-light transition-colors">Products</a>
-              <a href="#about" className="text-background/80 hover:text-primary-light transition-colors">About Us</a>
-              <a href="#contact" className="text-background/80 hover:text-primary-light transition-colors">Contact</a>
-              <a href="#terms" className="text-background/80 hover:text-primary-light transition-colors">Terms of Use</a>
-              <a href="#privacy" className="text-background/80 hover:text-primary-light transition-colors">Privacy Policy</a>
-              <a href="#returns" className="text-background/80 hover:text-primary-light transition-colors">Return Policy</a>
-              <a href="#faq" className="text-background/80 hover:text-primary-light transition-colors">FAQ</a>
+              <a href="#home" className="text-background/80 hover:text-primary transition-colors">Home</a>
+              <a href="#products" className="text-background/80 hover:text-primary transition-colors">Products</a>
+              <a href="#about" className="text-background/80 hover:text-primary transition-colors">About Us</a>
+              <a href="#contact" className="text-background/80 hover:text-primary transition-colors">Contact</a>
+              <a href="#terms" className="text-background/80 hover:text-primary transition-colors">Terms of Use</a>
+              <a href="#privacy" className="text-background/80 hover:text-primary transition-colors">Privacy Policy</a>
+              <a href="#returns" className="text-background/80 hover:text-primary transition-colors">Return Policy</a>
+              <a href="#faq" className="text-background/80 hover:text-primary transition-colors">FAQ</a>
             </div>
           </div>
         </div>
@@ -115,7 +114,7 @@ const Footer = () => {
 
         {/* Pharmaceutical Disclaimer */}
         <div className="bg-primary/10 rounded-lg p-6 mb-8">
-          <h4 className="font-semibold text-lg text-primary-light mb-4 flex items-center">
+          <h4 className="font-semibold text-lg text-primary mb-4 flex items-center">
             <Shield className="h-5 w-5 mr-2" />
             Important Pharmaceutical Disclaimer
           </h4>
