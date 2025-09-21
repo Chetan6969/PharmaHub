@@ -20,20 +20,20 @@ const Hero = () => {
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl font-bold leading-tight animate-fade-in">
             Pharmaceutical Excellence
-            <span className="block text-primary-light">Meets Caring Service</span>
+            <span className="block">Meets Caring Service</span>
           </h1>
 
           {/* Welcome Message */}
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 shadow-hero border border-white/20">
-            <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-primary-light">
+            <h2 className="text-2xl md:text-3xl font-semibold mb-6">
               Warm Welcome
             </h2>
             <p className="text-lg md:text-xl leading-relaxed text-white/90">
-              We are <span className="font-semibold text-primary-light">Divya and Aman</span>, 
+              We are <span className="font-semibold">Divya and Aman</span>, 
               students of <span className="font-semibold">B.Pharm 7th semester</span>, 
               representing the pharmaceutical world where innovation meets care. 
               Our mission is not just to sell medicines, but to bring solutions that improve lives. 
-              <span className="block mt-4 font-medium text-primary-light">
+              <span className="block mt-4 font-medium">
                 Here are the mentioned products you can purchase.
               </span>
             </p>
@@ -51,7 +51,7 @@ const Hero = () => {
             <Button 
               variant="outline" 
               size="lg"
-              className="border-white/30 text-white hover:bg-white/10 px-8 py-4 text-lg backdrop-blur-sm"
+              className="border-white/30 hover:bg-white/10 px-8 py-4 text-lg backdrop-blur-sm"
             >
               Learn More
             </Button>

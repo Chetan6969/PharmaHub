@@ -110,9 +110,9 @@ const ProductCard = ({ product, onAddToCart, onBuyNow }: ProductCardProps) => {
 
         {/* Additional Info */}
         <div className="flex items-center justify-center space-x-4 text-xs text-muted-foreground pt-2 border-t border-border/50">
-          <span>✓ Authentic Product</span>
-          <span>✓ Fast Delivery</span>
-          <span>✓ Easy Returns</span>
+          <span>Authentic Product</span>
+          <span>Fast Delivery</span>
+          <span>Easy Returns</span>
         </div>
       </CardFooter>
     </Card>
