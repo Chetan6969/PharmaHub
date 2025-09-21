@@ -27,7 +27,7 @@ export const products: Product[] = [
     category: "Pain Relief",
     description: "Effective pain and inflammation relief for joints and muscles",
     buildDate: "2024-01-15",
-    expiryDate: "2026-01-14"
+    expiryDate: "2027-03-14"
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ export const products: Product[] = [
     category: "Pain Relief",
     description: "Advanced formula for severe pain and inflammation management",
     buildDate: "2024-02-10",
-    expiryDate: "2026-02-09"
+    expiryDate: "2027-08-09"
   },
   {
     id: 3,
@@ -47,7 +47,7 @@ export const products: Product[] = [
     category: "Cough & Cold",
     description: "Effective cough suppressant and expectorant for all ages",
     buildDate: "2024-01-20",
-    expiryDate: "2025-01-19"
+    expiryDate: "2027-11-19"
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ export const products: Product[] = [
     category: "Cough & Cold",
     description: "Complete cold relief with antihistamine and decongestant",
     buildDate: "2024-03-05",
-    expiryDate: "2026-03-04"
+    expiryDate: "2027-01-04"
   },
   {
     id: 5,
@@ -67,7 +67,7 @@ export const products: Product[] = [
     category: "Pain Relief",
     description: "Trusted fever and pain relief for the whole family",
     buildDate: "2024-02-28",
-    expiryDate: "2026-02-27"
+    expiryDate: "2027-06-27"
   },
   {
     id: 6,
@@ -77,7 +77,7 @@ export const products: Product[] = [
     category: "Digestive",
     description: "Effective antispasmodic for abdominal pain and cramps",
     buildDate: "2024-01-10",
-    expiryDate: "2025-12-31"
+    expiryDate: "2027-09-30"
   },
   {
     id: 7,
@@ -87,7 +87,7 @@ export const products: Product[] = [
     category: "Oral Care",
     description: "Soothing gel for mouth ulcers and oral pain relief",
     buildDate: "2024-02-15",
-    expiryDate: "2025-08-14"
+    expiryDate: "2027-04-14"
   },
   {
     id: 8,
@@ -97,7 +97,7 @@ export const products: Product[] = [
     category: "Digestive",
     description: "Natural digestive powder for stomach problems and acidity",
     buildDate: "2024-01-05",
-    expiryDate: "2025-01-04"
+    expiryDate: "2027-12-04"
   },
   {
     id: 9,
@@ -107,7 +107,7 @@ export const products: Product[] = [
     category: "Pain Relief",
     description: "Fast relief from headache, body ache and fever",
     buildDate: "2024-02-20",
-    expiryDate: "2025-11-19"
+    expiryDate: "2027-02-19"
   },
   {
     id: 10,
@@ -117,7 +117,7 @@ export const products: Product[] = [
     category: "Pain Relief",
     description: "Fast-acting aspirin for quick pain and fever relief",
     buildDate: "2024-03-01",
-    expiryDate: "2026-02-28"
+    expiryDate: "2027-07-28"
   },
   {
     id: 11,
@@ -127,7 +127,7 @@ export const products: Product[] = [
     category: "Pain Relief",
     description: "Gentle paracetamol for children and adults fever relief",
     buildDate: "2024-02-10",
-    expiryDate: "2026-02-09"
+    expiryDate: "2027-05-09"
   },
   {
     id: 12,
@@ -137,7 +137,7 @@ export const products: Product[] = [
     category: "Skin Care",
     description: "Pure glycerine for skin moisturizing and care",
     buildDate: "2024-01-15",
-    expiryDate: "2025-07-14"
+    expiryDate: "2027-10-14"
   },
   {
     id: 13,
@@ -147,7 +147,7 @@ export const products: Product[] = [
     category: "Antiseptic",
     description: "Trusted antiseptic for wound cleaning and disinfection",
     buildDate: "2024-01-08",
-    expiryDate: "2025-07-07"
+    expiryDate: "2027-08-07"
   },
   {
     id: 14,
@@ -157,7 +157,7 @@ export const products: Product[] = [
     category: "Skin Care",
     description: "Natural neem facewash for acne-prone and oily skin",
     buildDate: "2024-02-05",
-    expiryDate: "2025-08-04"
+    expiryDate: "2027-01-04"
   },
   {
     id: 15,
@@ -167,7 +167,7 @@ export const products: Product[] = [
     category: "Skin Care",
     description: "Advanced formula facewash for deep cleansing and care",
     buildDate: "2024-01-25",
-    expiryDate: "2025-07-24"
+    expiryDate: "2027-03-24"
   },
   {
     id: 16,
@@ -177,7 +177,7 @@ export const products: Product[] = [
     category: "Pain Relief",
     description: "Traditional pain relief balm for muscular aches",
     buildDate: "2024-02-12",
-    expiryDate: "2025-08-11"
+    expiryDate: "2027-11-11"
   },
   {
     id: 17,
@@ -187,7 +187,7 @@ export const products: Product[] = [
     category: "Pain Relief",
     description: "Effective pain relief balm for sprains and muscular pain",
     buildDate: "2024-01-30",
-    expiryDate: "2025-07-29"
+    expiryDate: "2027-05-29"
   },
   {
     id: 18,
@@ -197,7 +197,7 @@ export const products: Product[] = [
     category: "Health Supplements",
     description: "Pure and natural honey for immunity and wellness",
     buildDate: "2024-01-12",
-    expiryDate: "2025-07-11"
+    expiryDate: "2027-09-11"
   },
   {
     id: 19,
@@ -207,7 +207,7 @@ export const products: Product[] = [
     category: "Digestive",
     description: "Digestive tablets for better digestion and appetite",
     buildDate: "2024-02-08",
-    expiryDate: "2025-08-07"
+    expiryDate: "2027-02-07"
   },
   {
     id: 20,
@@ -217,7 +217,7 @@ export const products: Product[] = [
     category: "Skin Care",
     description: "Natural rose water for skin toning and refreshing",
     buildDate: "2024-01-18",
-    expiryDate: "2025-07-17"
+    expiryDate: "2027-12-17"
   },
   {
     id: 21,
@@ -227,7 +227,7 @@ export const products: Product[] = [
     category: "Health Supplements",
     description: "Extra virgin olive oil for cooking and health benefits",
     buildDate: "2024-01-22",
-    expiryDate: "2025-07-21"
+    expiryDate: "2027-06-21"
   },
   {
     id: 22,
@@ -237,7 +237,7 @@ export const products: Product[] = [
     category: "Skin Care",
     description: "Gentle daily facial cleanser for sensitive skin",
     buildDate: "2024-02-01",
-    expiryDate: "2025-08-01"
+    expiryDate: "2027-04-01"
   },
   {
     id: 23,
@@ -247,7 +247,7 @@ export const products: Product[] = [
     category: "Health Supplements",
     description: "Ayurvedic immunity booster with herbs and nutrients",
     buildDate: "2024-01-14",
-    expiryDate: "2025-07-13"
+    expiryDate: "2027-10-13"
   },
   {
     id: 24,
@@ -257,7 +257,7 @@ export const products: Product[] = [
     category: "Oral Care",
     description: "Specialized toothpaste for sensitive teeth care",
     buildDate: "2024-02-18",
-    expiryDate: "2025-08-17"
+    expiryDate: "2027-07-17"
   },
   {
     id: 25,
@@ -267,7 +267,7 @@ export const products: Product[] = [
     category: "Oral Care",
     description: "Advanced formula for sensitive teeth protection",
     buildDate: "2024-01-28",
-    expiryDate: "2025-07-27"
+    expiryDate: "2027-01-27"
   },
   {
     id: 26,
@@ -277,7 +277,7 @@ export const products: Product[] = [
     category: "Digestive",
     description: "Instant relief from acidity and indigestion",
     buildDate: "2024-03-02",
-    expiryDate: "2026-03-01"
+    expiryDate: "2027-08-01"
   },
   {
     id: 27,
@@ -287,7 +287,7 @@ export const products: Product[] = [
     category: "Pain Relief",
     description: "Ayurvedic pain relief balm for headaches and body aches",
     buildDate: "2024-02-14",
-    expiryDate: "2025-08-13"
+    expiryDate: "2027-11-13"
   },
   {
     id: 28,
@@ -297,7 +297,7 @@ export const products: Product[] = [
     category: "Baby Care",
     description: "Gentle moisturizing cream for baby's delicate skin",
     buildDate: "2024-01-11",
-    expiryDate: "2025-07-10"
+    expiryDate: "2027-05-10"
   },
   {
     id: 29,
@@ -307,7 +307,7 @@ export const products: Product[] = [
     category: "Skin Care",
     description: "Specialized facewash for acne treatment and prevention",
     buildDate: "2024-02-07",
-    expiryDate: "2025-08-06"
+    expiryDate: "2027-12-06"
   },
   {
     id: 30,
@@ -317,7 +317,7 @@ export const products: Product[] = [
     category: "Skin Care",
     description: "Medicated soap for acne-prone skin cleansing",
     buildDate: "2024-01-26",
-    expiryDate: "2025-07-25"
+    expiryDate: "2027-03-25"
   },
   {
     id: 31,
@@ -327,7 +327,7 @@ export const products: Product[] = [
     category: "Skin Care",
     description: "Clinical formula facewash for deep pore cleansing",
     buildDate: "2024-02-11",
-    expiryDate: "2025-08-10"
+    expiryDate: "2027-09-10"
   },
   {
     id: 32,
@@ -337,7 +337,7 @@ export const products: Product[] = [
     category: "Vitamins",
     description: "Vitamin D3 supplement for bone health and immunity",
     buildDate: "2024-01-17",
-    expiryDate: "2025-07-16"
+    expiryDate: "2027-06-16"
   },
   {
     id: 33,
@@ -347,7 +347,7 @@ export const products: Product[] = [
     category: "Vitamins",
     description: "Vitamin C tablets for immune system support",
     buildDate: "2024-02-25",
-    expiryDate: "2026-02-24"
+    expiryDate: "2027-04-24"
   },
   {
     id: 34,
@@ -357,7 +357,7 @@ export const products: Product[] = [
     category: "Vitamins",
     description: "Vitamin E capsules for skin and heart health",
     buildDate: "2024-01-21",
-    expiryDate: "2025-07-20"
+    expiryDate: "2027-02-20"
   },
   {
     id: 35,
@@ -367,7 +367,7 @@ export const products: Product[] = [
     category: "Digestive",
     description: "Oral rehydration salts for dehydration treatment",
     buildDate: "2024-02-29",
-    expiryDate: "2026-02-28"
+    expiryDate: "2027-11-28"
   },
   {
     id: 36,
@@ -377,7 +377,7 @@ export const products: Product[] = [
     category: "Digestive",
     description: "Electrolyte replacement solution for hydration",
     buildDate: "2024-03-03",
-    expiryDate: "2026-03-02"
+    expiryDate: "2027-07-02"
   },
   {
     id: 37,
@@ -387,7 +387,7 @@ export const products: Product[] = [
     category: "Pain Relief",
     description: "Herbal pain relief spray for joint and muscle pain",
     buildDate: "2024-01-24",
-    expiryDate: "2025-07-23"
+    expiryDate: "2027-01-23"
   },
   {
     id: 38,
@@ -397,7 +397,7 @@ export const products: Product[] = [
     category: "Pain Relief",
     description: "Topical pain relief gel spray for inflammation",
     buildDate: "2024-02-06",
-    expiryDate: "2025-08-05"
+    expiryDate: "2027-10-05"
   },
   {
     id: 39,
@@ -407,7 +407,7 @@ export const products: Product[] = [
     category: "Pain Relief",
     description: "Advanced pain relief spray for mobility support",
     buildDate: "2024-01-13",
-    expiryDate: "2025-07-12"
+    expiryDate: "2027-05-12"
   },
   {
     id: 40,
@@ -417,7 +417,7 @@ export const products: Product[] = [
     category: "Pain Relief",
     description: "Fast-acting pain relief spray for muscles and joints",
     buildDate: "2024-02-16",
-    expiryDate: "2025-08-15"
+    expiryDate: "2027-08-15"
   },
   {
     id: 41,
@@ -427,7 +427,7 @@ export const products: Product[] = [
     category: "Vitamins",
     description: "Multivitamin syrup with zinc for overall health",
     buildDate: "2024-01-09",
-    expiryDate: "2025-07-08"
+    expiryDate: "2027-12-08"
   },
   {
     id: 42,
@@ -437,7 +437,7 @@ export const products: Product[] = [
     category: "Skin Care",
     description: "Brightening gel facewash for radiant skin",
     buildDate: "2024-02-22",
-    expiryDate: "2025-08-21"
+    expiryDate: "2027-03-21"
   },
   {
     id: 43,
@@ -447,7 +447,7 @@ export const products: Product[] = [
     category: "Skin Care",
     description: "Gentle moisturizing lotion for dry and sensitive skin",
     buildDate: "2024-01-06",
-    expiryDate: "2025-07-05"
+    expiryDate: "2027-06-05"
   },
   {
     id: 44,
@@ -457,7 +457,7 @@ export const products: Product[] = [
     category: "Skin Care",
     description: "Vitamin E enriched moisturizing cream for skin care",
     buildDate: "2024-02-13",
-    expiryDate: "2025-08-12"
+    expiryDate: "2027-09-12"
   },
   {
     id: 45,
@@ -467,7 +467,7 @@ export const products: Product[] = [
     category: "Cough & Cold",
     description: "Herbal cough syrup for dry and wet cough relief",
     buildDate: "2024-01-19",
-    expiryDate: "2025-07-18"
+    expiryDate: "2027-04-18"
   },
   {
     id: 46,
@@ -477,7 +477,7 @@ export const products: Product[] = [
     category: "Oral Care",
     description: "Antiseptic gargle solution for throat infections",
     buildDate: "2024-02-04",
-    expiryDate: "2025-08-03"
+    expiryDate: "2027-01-03"
   },
   {
     id: 47,
@@ -487,7 +487,7 @@ export const products: Product[] = [
     category: "Antiseptic",
     description: "Antiseptic ointment for wound healing and protection",
     buildDate: "2024-01-16",
-    expiryDate: "2025-07-15"
+    expiryDate: "2027-07-15"
   }
 ];
 
