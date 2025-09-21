@@ -28,20 +28,26 @@ const About = () => {
 
   const teamMembers = [
     {
-      name: "Divya Sharma",
-      role: "Co-Founder & Pharmaceutical Specialist",
-      education: "B.Pharm 7th Semester",
-      specialization: "Clinical Pharmacy & Drug Safety",
-      experience: "3+ years in pharmaceutical research",
-      achievements: ["Dean's List Student", "Research Paper Published", "Pharmaceutical Society Member"]
+      name: "Aman Soni",
+      role: "Co-Founder & Product Manager",
+      education: "B. Pharm 7th Semester, AKS University Satna",
+      specialization: "Pharmaceutical Marketing & Quality Control",
+      experience: "Currently pursuing B. Pharm studies",
+      achievements: ["Academic Excellence Award", "Internship at Leading Pharma", "Quality Certification"],
+      contact: "+91 8770631858",
+      email: "amansoni8770631858@gmail.com",
+      address: "Near by AKS University, Sherganj, Satna, MP"
     },
     {
-      name: "Aman Kumar",
-      role: "Co-Founder & Product Manager",
-      education: "B.Pharm 7th Semester", 
-      specialization: "Pharmaceutical Marketing & Quality Control",
-      experience: "3+ years in pharmaceutical operations",
-      achievements: ["Academic Excellence Award", "Internship at Leading Pharma", "Quality Certification"]
+      name: "Divya Singh",
+      role: "Co-Founder & Pharmaceutical Specialist",
+      education: "B. Pharm 7th Semester, AKS University Satna",
+      specialization: "Clinical Pharmacy & Drug Safety",
+      experience: "Currently pursuing B. Pharm studies",
+      achievements: ["Dean's List Student", "Research Paper Published", "Pharmaceutical Society Member"],
+      contact: "+91 7987142549",
+      email: "divyaa9753@gmail.com",
+      address: "E.W.S-1 Bandhavgarh Colony, Sindhi Camp, Satna"
     }
   ];
 
@@ -134,6 +140,17 @@ const About = () => {
                     <div>
                       <h5 className="font-semibold text-foreground mb-1">Experience</h5>
                       <p className="text-muted-foreground">{member.experience}</p>
+                    </div>
+                    
+                    <div>
+                      <h5 className="font-semibold text-foreground mb-1">Contact</h5>
+                      <p className="text-muted-foreground text-sm">{member.contact}</p>
+                      <p className="text-muted-foreground text-sm">{member.email}</p>
+                    </div>
+                    
+                    <div>
+                      <h5 className="font-semibold text-foreground mb-1">Address</h5>
+                      <p className="text-muted-foreground text-sm">{member.address}</p>
                     </div>
                     
                     <div>

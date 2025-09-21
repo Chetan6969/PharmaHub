@@ -26,11 +26,11 @@ const Header = ({ onSearch, cartCount = 0 }: HeaderProps) => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-gradient-primary rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">D&A</span>
+              <span className="text-white font-bold text-lg">A&D</span>
             </div>
             <div>
               <h1 className="font-bold text-xl text-foreground">PharmaHub</h1>
-              <p className="text-xs text-muted-foreground">By Divya & Aman</p>
+              <p className="text-xs text-white">By Aman & Divya</p>
             </div>
           </div>
 

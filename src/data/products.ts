@@ -101,11 +101,11 @@ export const products: Product[] = [
   },
   {
     id: 9,
-    name: "Sharifon Tablet",
+    name: "Saridon Tablet",
     price: 50,
     image: genericImg,
-    category: "General Health",
-    description: "Ayurvedic formulation for general wellness and immunity",
+    category: "Pain Relief",
+    description: "Fast relief from headache, body ache and fever",
     buildDate: "2024-02-20",
     expiryDate: "2025-11-19"
   },

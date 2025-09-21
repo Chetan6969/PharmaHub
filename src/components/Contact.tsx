@@ -14,17 +14,17 @@ const Contact = () => {
       icon: MapPin,
       title: "Visit Our Store",
       primary: "PharmaHub Wellness Center",
-      secondary: "College of Pharmacy Building, University Campus",
-      tertiary: "Sector 12, Healthcare District, Mumbai - 400012",
+      secondary: "AKS University Satna Campus",
+      tertiary: "Madhya Pradesh, India",
       action: "Get Directions",
       gradient: "bg-gradient-emerald"
     },
     {
       icon: Phone,
       title: "Call Us",
-      primary: "Customer Service",
-      secondary: "+91 98765 43210",
-      tertiary: "Emergency Hotline: +91 98765 43211",
+      primary: "Aman Soni",
+      secondary: "+91 8770631858",
+      tertiary: "Divya Singh: +91 7987142549",
       action: "Call Now",
       gradient: "bg-gradient-mint"
     },
@@ -32,8 +32,8 @@ const Contact = () => {
       icon: Mail,
       title: "Email Us",
       primary: "General Inquiries",
-      secondary: "divya.aman@pharmahub.com",
-      tertiary: "support@pharmahub.com",
+      secondary: "amansoni8770631858@gmail.com",
+      tertiary: "divyaa9753@gmail.com",
       action: "Send Email", 
       gradient: "bg-gradient-forest"
     }
