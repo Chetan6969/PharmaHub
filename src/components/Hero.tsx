@@ -39,7 +39,7 @@ const Hero = () => {
             </p>
           </div>
 
-          {/* CTA Buttons */}
+          {/* Dil hai ki manta nahi CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
