@@ -24,7 +24,7 @@ import figaroImg from "@/assets/Figaro.jpg";
 import  CetaphilImg from "@/assets/Cetaphil Cleanser.jpg";
 import DaburImg from "@/assets/Chyawanprash.jpg";
 import CipladineImg from "@/assets/CiplaDine.jpg";
-import gSensodentkfImg from "@/assets/Sensodent KF.jpg";
+import gSensodentkfImg from "@/assets/SensoDent.jpg";
 import SensodynImg from "@/assets/Sensodyne.jpg";
 import ENOImg from "@/assets/ENO.jpg";
 import ZanduImg from "@/assets/ZAndu.jpg";
