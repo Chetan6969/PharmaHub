@@ -24,7 +24,7 @@ const Contact = () => {
       title: "Call Us",
       primary: "Aman Soni",
       secondary: "+91 8770631858",
-      tertiary: "Sakshi Singh: +91 8819885336",
+      tertiary: "Sakshi Chaturvedi +91 8819885336",
       action: "Call Now",
       gradient: "bg-gradient-mint"
     },

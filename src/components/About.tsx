@@ -6,7 +6,7 @@ const About = () => {
   const achievements = [
     {
       icon: GraduationCap,
-      title: "B.Pharm 7th Semester",
+      title: "B.Pharm 8th Semester",
       description: "Currently pursuing Bachelor of Pharmacy from prestigious university"
     },
     {
