@@ -29,8 +29,8 @@ const Hero = () => {
               Warm Welcome
             </h2>
             <p className="text-lg md:text-xl leading-relaxed text-white/90">
-              We are <span className="font-semibold">Divya and Aman</span>, 
-              students of <span className="font-semibold">B.Pharm 7th semester</span>, 
+              We are <span className="font-semibold">Sakshi and Aman</span>, 
+              students of <span className="font-semibold">B.Pharm 8th semester</span>, 
               representing the pharmaceutical world where innovation meets care. 
               Our mission is not just to sell medicines, but to bring solutions that improve lives. 
               <span className="block mt-4 font-medium">

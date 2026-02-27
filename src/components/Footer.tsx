@@ -11,15 +11,15 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-gradient-primary rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">D&A</span>
+                <span className="text-white font-bold text-lg">A&S</span>
               </div>
               <div>
                 <h3 className="font-bold text-xl">PharmaHub</h3>
-                <p className="text-sm text-background/80">By Divya & Aman</p>
+                <p className="text-sm text-background/80">By Sakshi & Aman</p>
               </div>
             </div>
             <p className="text-background/80 leading-relaxed">
-              B.Pharm 7th semester students dedicated to providing authentic pharmaceutical 
+              B.Pharm 8th semester students dedicated to providing authentic pharmaceutical 
               products and healthcare solutions with care and innovation.
             </p>
             <div className="flex space-x-4">
@@ -60,7 +60,7 @@ const Footer = () => {
                 <Mail className="h-5 w-5 text-primary flex-shrink-0" />
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-sm text-background/80">divya.aman@pharmahub.com</p>
+                  <p className="text-sm text-background/80">Sakshi.aman@pharmahub.com</p>
                 </div>
               </div>
             </div>
@@ -137,7 +137,7 @@ const Footer = () => {
         {/* Bottom Footer */}
         <div className="flex flex-col md:flex-row items-center justify-between text-sm text-background/80">
           <div className="mb-4 md:mb-0">
-            <p>&copy; 2024 PharmaHub - Divya & Aman B.Pharm Project. All rights reserved.</p>
+            <p>&copy; 2024 PharmaHub - Sakshi & Aman B.Pharm Project. All rights reserved.</p>
           </div>
           <div className="flex items-center space-x-4">
             <p>Licensed Pharmacy • Drug License No: DL-123456</p>

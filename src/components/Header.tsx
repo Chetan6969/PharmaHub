@@ -19,18 +19,18 @@ const Header = ({ onSearch, cartCount = 0 }: HeaderProps) => {
   };
 
   return (
-    <header className="bg-background border-b border-border sticky top-0 z-50 backdrop-blur-sm bg-background/95">
+    <header className="border-b border-border sticky top-0 z-50 backdrop-blur-sm bg-background/95">
       <div className="container mx-auto px-4">
         {/* Top Bar */}
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-gradient-primary rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">A&D</span>
+              <span className="text-white font-bold text-lg">A&S</span>
             </div>
             <div>
               <h1 className="font-bold text-xl text-foreground">PharmaHub</h1>
-              <p className="text-xs text-white">By Aman & Divya</p>
+              <p className="text-xs text-white">By Aman & Sakshi</p>
             </div>
           </div>
 

@@ -24,7 +24,7 @@ const Contact = () => {
       title: "Call Us",
       primary: "Aman Soni",
       secondary: "+91 8770631858",
-      tertiary: "Divya Singh: +91 7987142549",
+      tertiary: "Sakshi Singh: +91 8819885336",
       action: "Call Now",
       gradient: "bg-gradient-mint"
     },
@@ -33,7 +33,7 @@ const Contact = () => {
       title: "Email Us",
       primary: "General Inquiries",
       secondary: "amansoni8770631858@gmail.com",
-      tertiary: "divyaa9753@gmail.com",
+      tertiary: "sakshivedi456@gmail.com",
       action: "Send Email", 
       gradient: "bg-gradient-forest"
     }
@@ -60,7 +60,7 @@ const Contact = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4 text-primary border-primary">Get In Touch</Badge>
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 bg-gradient-rainbow bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold  mb-6 bg-gradient-rainbow bg-clip-text text-transparent">
             We're Here to Help
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">

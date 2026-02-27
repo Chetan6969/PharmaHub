@@ -30,7 +30,7 @@ const About = () => {
     {
       name: "Aman Soni",
       role: "Co-Founder & Product Manager",
-      education: "B. Pharm 7th Semester, AKS University Satna",
+      education: "B. Pharm 8th Semester, AKS University Satna",
       specialization: "Pharmaceutical Marketing & Quality Control",
       experience: "Currently pursuing B. Pharm studies",
       achievements: ["Academic Excellence Award", "Internship at Leading Pharma", "Quality Certification"],
@@ -39,15 +39,15 @@ const About = () => {
       address: "Near by AKS University, Sherganj, Satna, MP"
     },
     {
-      name: "Divya Singh",
+      name: "Sakhshi Chaturvedi",
       role: "Co-Founder & Pharmaceutical Specialist",
-      education: "B. Pharm 7th Semester, AKS University Satna",
+      education: "B. Pharm 8th Semester, AKS University Satna",
       specialization: "Clinical Pharmacy & Drug Safety",
       experience: "Currently pursuing B. Pharm studies",
       achievements: ["Dean's List Student", "Research Paper Published", "Pharmaceutical Society Member"],
-      contact: "+91 7987142549",
-      email: "divyaa9753@gmail.com",
-      address: "E.W.S-1 Bandhavgarh Colony, Sindhi Camp, Satna"
+      contact: "+91 8819885336",
+      email: "sakshivedi456@gmail.com ",
+      address: "Krishna Nagar, Satna, MP"
     }
   ];
 
@@ -57,7 +57,7 @@ const About = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4 text-primary border-primary">About PharmaHub</Badge>
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 bg-gradient-rainbow bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold  mb-6 bg-gradient-rainbow bg-clip-text text-transparent">
             Innovation Meets Healthcare Excellence
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
